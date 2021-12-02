@@ -7,7 +7,7 @@ const AWS = require('aws-sdk');
 AWS.config.update({ region: 'eu-central-1' });
 
 const app = Consumer.create({
-  queueUrl: 'https://sqs.eu-central-1.amazonaws.com/457441446271/deliveredV1',
+  queueUrl: 'https://sqs.eu-central-1.amazonaws.com/457441446271/deliveredV2',
   handleMessage: handler,
 });
 
@@ -33,9 +33,9 @@ const topic = 'arn:aws:sns:eu-central-1:457441446271:pickup.fifo';
 const payload = {
   Message: JSON.stringify({ 
     orderID: faker.datatype.uuid(),
-    store: 'Toys R Us',
+    store: 'Apple',
     customer: `${faker.name.firstName()} ${faker.name.lastName()}`,
-    vendorID: 'https://sqs.eu-central-1.amazonaws.com/457441446271/deliveredV1'
+    vendorID: 'https://sqs.eu-central-1.amazonaws.com/457441446271/deliveredV2'
   }),
   TopicArn: topic,
   MessageGroupId: '1',
