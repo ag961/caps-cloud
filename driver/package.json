@@ -11,6 +11,7 @@
   "description": "",
   "dependencies": {
     "aws-sdk": "^2.1041.0",
+    "faker": "^5.5.3",
     "sqs-consumer": "^5.6.0",
     "sqs-producer": "^2.1.0"
   }
