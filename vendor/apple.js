@@ -52,4 +52,4 @@ let timeoutID = setInterval( ()=>{
 
 setTimeout( () => {
   clearTimeout(timeoutID)
-}, 50000)
+}, 30000)

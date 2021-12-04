@@ -36,7 +36,7 @@ app.on('message_processed', (message) => {
     } catch (e) {
       console.error(e)
     }
-  }, 10000)
+  }, 8000)
 })
 
 app.on('restart-poll', () => {
