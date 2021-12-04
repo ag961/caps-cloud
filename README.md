@@ -7,10 +7,10 @@ CAPS, but this time using AWS SNS and AWS SQS services.
 ## Author
 
 Ayrat Gimranov
+Jeremy Brazell
 
 ## Collaborators
 
-Jeremy Brazell
 Alex White
 
 ## To Start
