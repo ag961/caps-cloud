@@ -1,10 +1,14 @@
 # caps-cloud
 
+Version 1.0.0
+
 ## Description
 
 CAPS, but this time using AWS SNS and AWS SQS services.
 
-## Author
+This is an app that simulates the deliivery of packages and sending delivery notifications. It is using AWS SNS and SQS services to track the order of packages being received and delivered. The system can work with multiple vendors and drivers.
+
+## Authors
 
 Ayrat Gimranov
 Jeremy Brazell
@@ -12,6 +16,16 @@ Jeremy Brazell
 ## Collaborators
 
 Alex White
+
+## Resources
+
+[CodeFellows 401-JS Lab 19 starter code](https://github.com/codefellows/seattle-javascript-401n19/tree/main/class-19/demo)
+
+[AWS DOCS](https://docs.aws.amazon.com/)
+
+[sqs-Consumer](https://www.npmjs.com/package/sqs-consumer)
+
+[sqs-publisher](https://github.com/bbc/sqs-producer)
 
 ## To Start
 
