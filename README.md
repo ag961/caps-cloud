@@ -44,6 +44,10 @@ If both drivers and vendors are logged on at the same, the driver will start car
 
 ![UML](lab19UML.png)
 
+## Console Image
+
+![Console](console.png)
+
 ## Install
 
 Run `npm i` in folders: "vendor" and "driver"
